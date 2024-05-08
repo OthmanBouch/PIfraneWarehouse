@@ -144,7 +144,7 @@
   <div class="card">
     <h2 class="card-title">Sami El Yaagoubi</h2>
     <img src="images\sami.PNG" alt="">
-    <p class="card-desc">Hope we get the best grade !</p>
+    <p class="card-desc">Among us!</p>
   </div>
   <div class="card">
     <h2 class="card-title">Morad Essadiki</h2>
