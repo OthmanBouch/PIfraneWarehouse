@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Karla', sans-serif;
+}
+body{
+  color: rgb(34, 22, 7);
+}
+.container{
+  width: 100%;
+  height: 100vh;
+  background-image: url(css/image2.jpg);
+  background-position: center;
+  background-size: cover;
+  padding-top: 35px;
+  padding-left: 8%;
+  padding-right: 8%;
+}
+nav{
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo a{
+  font-size: 40px;
+  text-decoration: none;
+}
+span{
+  color: #b26e09;
+}
+nav ul li{
+  display: inline-block;
+  list-style: none;
+  margin: 10px 15px;
+}
+nav ul li a{
+  text-decoration: none;
+  transition: 0.5s;
+}
+nav ul li a:hover{
+  color: #f98d00;
+}
+.login{
+  color: rgb(255, 179, 0);
+  text-decoration: none;
+  margin-right: 15px;
+  font-size: 18px;
+}
+.btn{
+  background: rgb(179, 104, 33);
+  border-radius: 6px;
+  padding: 9px 25px;
+  text-decoration: none;
+  transition: 0.5s;
+  font-size: 18px;
+}
+.btn:hover{
+  background: transparent;
+  border: 1px solid rgb(158, 108, 14);
+  color: #8c6615;
+
+}
+
+.content{
+  margin-top: 10%;
+  max-width: 600px;
+}
+.content h2{
+  font-size: 60px
+}
+.content p{
+  margin-top: 10px;
+  line-height: 25px;
+}
+a{
+  color: rgb(0, 0, 0);
+}
+.link {
+  margin-top: 30px;
+}
+.hire{
+  color: #000;
+  text-decoration: none;
+  background: rgb(169, 128, 23);
+  padding: 9px 25px;
+  font-weight: bold;
+  border-radius: 6px;
+  transition: 0.5s;
+}
+.link .hire:hover{
+  background: transparent;
+  border: 1px solid rgb(193, 171, 6);
+  color: #d3b401;
+}
+.logo-img{
+  float: left;
+  position: relative;
+  margin: 0px 0px 0px 0px;
+}
